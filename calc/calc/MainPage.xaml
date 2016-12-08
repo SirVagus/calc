@@ -57,6 +57,9 @@
         <Label.Font>
           <OnPlatform x:TypeArguments="Font" iOS="36" Android="48" WinPhone="56" />
         </Label.Font>
+        <Label.TextColor>
+          <OnPlatform x:TypeArguments="Color" Android="White" />
+        </Label.TextColor>
       </Label>
     </ContentView>
 
